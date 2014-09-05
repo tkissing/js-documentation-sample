@@ -1,0 +1,11 @@
+{
+    "directory": "src/bower",
+    "registry": {
+        "register": "http://nexusvm1.ops.expertcity.com:5678",
+        "publish": "http://nexusvm1.ops.expertcity.com:5678",
+        "search": [
+            "http://nexusvm1.ops.expertcity.com:5678",
+            "https://bower.herokuapp.com/"
+        ]
+    }
+}

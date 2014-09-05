@@ -1,0 +1,15 @@
+._*
+.DS_Store
+.DS_Store?
+.idea
+.project
+.Spotlight-V100
+.Trashes
+*.key
+*.csr
+*.crt
+Icon?
+npm-debug.log
+node_modules
+/coverage
+/test-results
