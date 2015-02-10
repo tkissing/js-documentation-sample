@@ -1,0 +1,161 @@
+{
+    "project": {
+        "name": "sample-component",
+        "description": "js-documentation-sample",
+        "version": "0.1.0",
+        "url": "https://github.com/tkissing/js-documentation-sample"
+    },
+    "files": {
+        "src/sample.js": {
+            "name": "src/sample.js",
+            "modules": {},
+            "classes": {
+                "": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/sample_jsdoc.js": {
+            "name": "src/sample_jsdoc.js",
+            "modules": {},
+            "classes": {
+                "Sample_JSDoc": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/sample_yuidoc.js": {
+            "name": "src/sample_yuidoc.js",
+            "modules": {},
+            "classes": {
+                "Sample_YUIDoc": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "": {
+            "file": "src/sample.js",
+            "line": 6
+        },
+        "Sample_JSDoc": {
+            "name": "Sample_JSDoc",
+            "shortname": "Sample_JSDoc",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/sample_jsdoc.js",
+            "line": 3
+        },
+        "Sample_YUIDoc": {
+            "name": "Sample_YUIDoc",
+            "shortname": "Sample_YUIDoc",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/sample_yuidoc.js",
+            "line": 3
+        }
+    },
+    "classitems": [
+        {
+            "file": "src/sample.js",
+            "line": 11,
+            "itemtype": "method",
+            "name": "",
+            "params": [
+                {
+                    "name": "yeah",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": "Sample_JSDoc"
+        },
+        {
+            "file": "src/sample.js",
+            "line": 21,
+            "itemtype": "method",
+            "name": "",
+            "params": [
+                {
+                    "name": "rockit",
+                    "description": "",
+                    "type": "Boolean"
+                }
+            ],
+            "class": "Sample_JSDoc"
+        },
+        {
+            "file": "src/sample_jsdoc.js",
+            "line": 8,
+            "memberof": "Sample_JSDoc#",
+            "params": [
+                {
+                    "name": "yeah",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": "Sample_JSDoc"
+        },
+        {
+            "file": "src/sample_jsdoc.js",
+            "line": 18,
+            "itemtype": "method",
+            "name": "Sample_JSDoc#expressed",
+            "params": [
+                {
+                    "name": "rockit",
+                    "description": "",
+                    "type": "Boolean"
+                }
+            ],
+            "class": "Sample_JSDoc"
+        },
+        {
+            "file": "src/sample_yuidoc.js",
+            "line": 8,
+            "itemtype": "method",
+            "name": "declared",
+            "params": [
+                {
+                    "name": "yeah",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": "Sample_YUIDoc"
+        },
+        {
+            "file": "src/sample_yuidoc.js",
+            "line": 18,
+            "itemtype": "method",
+            "name": "expressed",
+            "params": [
+                {
+                    "name": "rockit",
+                    "description": "",
+                    "type": "Boolean"
+                }
+            ],
+            "class": "Sample_YUIDoc"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: memberof",
+            "line": " src/sample_jsdoc.js:8"
+        },
+        {
+            "message": "Missing item type",
+            "line": " src/sample_jsdoc.js:8"
+        }
+    ]
+}
